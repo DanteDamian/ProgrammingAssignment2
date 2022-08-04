@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This Function allow to calculate de inverse matrix  and if the inverse is already calculated, the uses the cache
+## 
 
-## Write a short comment describing this function
+## This function create a cache over the result of a inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
                 m<-NULL
